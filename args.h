@@ -24,14 +24,14 @@
  * IN THE SOFTWARE.
  */
 
-/** \file args.hxx
+/** \file args.h
  * \brief this single-header lets you use all of the args functionality
  *
  * The important stuff is done inside the args namespace
  */
 
-#ifndef ARGS_HXX
-#define ARGS_HXX
+#ifndef ARGS_H
+#define ARGS_H
 
 #define ARGS_VERSION "6.4.6"
 #define ARGS_VERSION_MAJOR 6
