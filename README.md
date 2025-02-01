@@ -27,14 +27,14 @@ morse-cli {OPTIONS} [input...]
 
 ### Encrypting a message:
 ```bash
-./morse-cli --encrypt hello world
+./morse-cli --encrypt -- hello world
 .... . .-.. .-.. --- / .-- --- .-. .-.. -..
 ```
 Usage of quotes `" or '` is required for larger inputs
 
 ### Decrypting a message:
 ```bash
-./morse-cli --decrypt ".... . .-.. .-.. --- / .-- --- .-. .-.. -.."
+./morse-cli --decrypt -- ".... . .-.. .-.. --- / .-- --- .-. .-.. -.."
 HELLO WORLD
 ```
 Usage of quotes `" or '` is required because dots (`.`) usually refer to directories for most shells
